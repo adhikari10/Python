@@ -1,5 +1,5 @@
-talents = int(input("enter talents:"))
-pounds = int(input("enter pounds:"))
+talents = float(input("enter talents:"))
+pounds = float(input("enter pounds:"))
 lots = float(input("enter lots:"))
 Sum = (talents*20*32*13.3 + pounds*32*13.3 + lots*13.3)
 kilogram = Sum/1000
